@@ -30,7 +30,7 @@ the following structure:
 Command: /project/<keyword>:
 Will return a list of all projects with the provided keyword:
 
-	- PROJECT THAT CONTAIN <keyword>
+	- PROJECT THAT CONTAINS <keyword>
 		-Project 1
 		-Project 2
 		-Project 3
