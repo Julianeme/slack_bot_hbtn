@@ -36,15 +36,16 @@ Will return a list of all projects with the provided keyword:
 		-Project 3
 		-Project n
 
-The bot requieres a appserver to keep running, there are some sites
-that provide such a service for free, but they have their limitations.
+The bot requieres an appserver run and redirect slack user requests to your
+flask app server, there are some sites that provide such a service for free,
+but they have their limitations.
 For testing this bot I used ngrok service, feel free to user your favorite
 appserver service.
 
-You must create an additional file named .env and place it in the same folder as the bot.py file
+You must create an additional file named .env and place it in the same folder as the bot.py file,
 this file must contain the following information:
 
 SLACK_TOKEN=<YOUR SLACK_TOKEN>
 SIGNING_SECRET=<YOR SLACK SIGNING_SECRET>
 
-This is to keep your personal slack credentials secret and out of your github space.
+It is intended to keep your personal slack credentials secret and out of your github space.
